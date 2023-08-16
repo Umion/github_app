@@ -1,20 +1,14 @@
-## Setup
+Installation:
 
-Make sure to install the dependencies:
-
-```bash
-# yarn
+```sh
 yarn install
 ```
 
-## Development Server
+Run:
 
-# yarn
-
+```sh
 yarn dev
-
-````
-
+```
 
 # React + TypeScript + Vite
 
@@ -38,7 +32,7 @@ If you are developing a production application, we recommend updating the config
     project: ['./tsconfig.json', './tsconfig.node.json'],
     tsconfigRootDir: __dirname,
    },
-````
+```
 
 - Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
 - Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
