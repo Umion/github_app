@@ -1,3 +1,21 @@
+## Setup
+
+Make sure to install the dependencies:
+
+```bash
+# yarn
+yarn install
+```
+
+## Development Server
+
+# yarn
+
+yarn dev
+
+````
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -20,7 +38,7 @@ If you are developing a production application, we recommend updating the config
     project: ['./tsconfig.json', './tsconfig.node.json'],
     tsconfigRootDir: __dirname,
    },
-```
+````
 
 - Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
 - Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
